@@ -10,7 +10,7 @@
        <classes>
            <class name="testCases.AccountTest"></class>
            <class name="testCases.LoginTest"></class>
-           <class name="testCases.LoginDDT"></class>
+           <class name="testCases.LoginDDTTest"></class>
        </classes>
     </test>
 </suite>
