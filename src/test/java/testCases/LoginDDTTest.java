@@ -7,9 +7,9 @@ import pageObject.LoginPage;
 import pageObject.MyAccountPage;
 import testBase.BaseClass;
 
-public class LoginDDT extends BaseClass {
+public class LoginDDTTest extends BaseClass {
     @Test(dataProvider = "LoginData", dataProviderClass = utilities.DataProviders.class,
-    groups={"DatDriven", "Master"})
+    groups={"DataDriven", "Master"})
     public void verifyLoginDDT (String email, String pwd, String exp) {
         logger.info("*********** Login DDT Test Started **********");
         HomePage hp = new HomePage(driver);
